@@ -1,0 +1,88 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 35px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .profile-picture {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profile-info {
+    text-align: left;
+  }
+  
+  .username {
+    font-size: 43px;
+    font-weight: bold;
+  }
+  
+  .full-name {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .followers,
+  .following {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .posts-container {
+    width: 110%;
+    max-width: 650px;
+  }
+  
+  .posts-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .post {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    color:#b583ab;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .nabla{ 
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;
+  }
+

@@ -1,0 +1,239 @@
+
+.nabla{ 
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+.shadows-into{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: transparent; /* Hacer el color del texto transparente */
+  background: -webkit-linear-gradient(left, #c3388d , #5e0479); /* Degradado de color */
+  -webkit-background-clip: text; /* Aplicar el degradado de color solo al texto */
+  -webkit-text-fill-color: transparent; 
+}
+
+.kelly-slab-regular {
+  font-family: "Kelly Slab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: transparent; /* Hacer el color del texto transparente */
+  background: -webkit-linear-gradient(left, #962d2d, #0b0b99); /* Degradado de color */
+  -webkit-background-clip: text; /* Aplicar el degradado de color solo al texto */
+  -webkit-text-fill-color: transparent; /* Hacer el color del texto transparente para que el degradado sea visible */
+}
+
+.sectionWithBackground {
+  background-image: url('../../images/FondoPrincipal.jpg');
+  background-size: 100% auto; /* La imagen se ajustará al ancho del contenedor */
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.paginacion{
+  position: absolute;
+  top: 22px;
+  width: 70%; /* Ocupa todo el ancho del contenedor padre */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.big-shoulders  {
+  font-family: "Big Shoulders Inline Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 25px;
+  color: #1d0413;
+  transition: transform 0.5s ease;
+}
+
+.big-shoulders:hover {
+  transform: scale(1.20); /* Aumenta el tamaño de la imagen al pasar el cursor por encima */
+}
+
+.big-shoulderss {
+  font-family: "Big Shoulders Inline Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: #170310;
+  transition: transform 0.2s ease;
+}
+
+.big-shoulderss:hover {
+  transform: scale(1.04); /* Aumenta el tamaño de la imagen al pasar el cursor por encima */
+}
+
+
+.secondSection {
+  display: flex;
+  position: relative;
+  align-items: flex-start; /* Alinea los elementos al principio */
+  background-image: url('../../images/Yellow.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.textContainer {
+  flex: 1; /* Hace que el contenedor de texto ocupe todo el espacio disponible */
+  padding-right: 60px;
+  margin-top: 35px;
+  padding-left: 25px; /* Espacio entre el texto y el video */
+}
+
+.videoContainer {
+  width: 40%;
+  
+}
+
+
+
+.tilt-warp {
+  font-family: "Tilt Warp", sans-serif;
+  color: transparent; /* Hacer el color del texto transparente */
+  background: -webkit-linear-gradient(left, #550937 , #0c0476); /* Degradado de color */
+  -webkit-background-clip: text; /* Aplicar el degradado de color solo al texto */
+  -webkit-text-fill-color: transparent; 
+}
+
+.tilt-warpy {
+  font-family: "Tilt Warp", sans-serif;
+  color: transparent; /* Hacer el color del texto transparente */
+  background: -webkit-linear-gradient(left, #3e0226 , #740255); /* Degradado de color */
+  -webkit-background-clip: text; /* Aplicar el degradado de color solo al texto */
+  -webkit-text-fill-color: transparent; 
+}
+
+.tercerSection {
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos al principio */
+  background-image: url('../../images/blueSky.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.videoContainerProyect {
+  width: 50%;
+  
+}
+
+.tilt-warp2 {
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: transparent; /* Hacer el color del texto transparente */
+  background: -webkit-linear-gradient(left, #962d2d, #0b0b99); /* Degradado de color */
+  -webkit-background-clip: text; /* Aplicar el degradado de color solo al texto */
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+}
+
+.logoSection {
+  position: absolute;
+  bottom: 7px; /* Coloca el div logoSection en la parte inferior del contenedor padre */
+  width: 90%; /* Ocupa todo el ancho del contenedor padre */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  margin-left: 70px;
+}
+
+.logoImage {
+  width: calc((80% - 110px) / 11); /* Calcula el ancho de cada imagen con 10px de espacio entre ellas */
+  transition: transform 0.3s ease; /* Agrega transición para el efecto de agrandamiento */
+}
+
+.logoImage:hover {
+  transform: scale(1.50); /* Aumenta el tamaño de la imagen al pasar el cursor por encima */
+}
+
+.skills-part{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  bottom: 51px;
+  width: 65%;
+  margin-left: 35px;
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.skills-partH6{
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #6c2471;
+
+}
+
+.last-section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-image: url('../../images/lastOne.png');
+  min-height: 100vh;
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+}
+
+.tilt-warpLast {
+  font-family: "Tilt Warp", sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  font-style: normal;
+  color: transparent; /* Hacer el color del texto transparente */
+  background: -webkit-linear-gradient(left, #ba2196, #59186d); /* Degradado de color */
+  -webkit-background-clip: text; /* Aplicar el degradado de color solo al texto */
+  -webkit-text-fill-color: transparent;
+  margin-top: 5px;
+
+}
+
+h5{
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 26px;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.textoLast{
+  width: 43%;
+}
+
+.Imagen-Perfil {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 280px; /* Espacio adicional desde el borde inferior */
+  margin-right: 52px; /* Espacio adicional desde el borde derecho */
+  border-radius: 50%; /* Redondear los bordes para formar un círculo */
+  overflow: hidden; /* Ocultar cualquier parte de la imagen que sobresalga del círculo */
+}
+
+.Imagen-Perfil img {
+  width: 100px; /* Ajustar el tamaño de la imagen según sea necesario */
+  height: auto;
+  border-radius: 50%; /* Asegurar que la imagen dentro del círculo */
+}
