@@ -237,3 +237,26 @@ h5{
   height: auto;
   border-radius: 50%; /* Asegurar que la imagen dentro del círculo */
 }
+
+/* Estilos para dispositivos de pantalla pequeña */
+@media (max-width: 768px) {
+  .sectionWithBackground {
+    background-size: cover; /* Ajustar el tamaño de fondo para cubrir el contenedor */
+  }
+
+  .logoImage {
+    width: calc((100% - 20px) / 3); /* Tres imágenes por fila en dispositivos de pantalla pequeña */
+  }
+
+  /* Otros estilos específicos para dispositivos de pantalla pequeña */
+}
+
+/* Estilos para dispositivos de pantalla mediana */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos específicos para dispositivos de pantalla mediana */
+}
+
+/* Estilos para dispositivos de pantalla grande */
+@media (min-width: 1024px) {
+  /* Estilos específicos para dispositivos de pantalla grande */
+}
