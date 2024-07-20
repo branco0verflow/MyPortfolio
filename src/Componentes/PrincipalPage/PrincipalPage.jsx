@@ -39,16 +39,16 @@ const PaginaPrincipal = () => {
               className='big-shoulderss'
               type="switch"
               id="custom-switch"
-              label={isEnglish ?  "Cambiar a Español"  : "Change to English" }
+              label={isEnglish ? "Cambiar a Español" : "Change to English"}
               checked={isEnglish}
               onChange={() => setIsEnglish(!isEnglish)}
             />
           </Form>
         </div>
 
-        <div style={styles.container}>
-          <h1 className='tilt-warpy' style={styles.nombre}>Branco</h1>
-          <h2 className='shadows-into' style={styles.apellido}>Nehuen Beltran</h2>
+        <div className="container">
+          <h1 className='tilt-warpy'>Branco</h1>
+          <h2 className='shadows-into'>Nehuen Beltran</h2>
         </div>
 
         <div className='skills-part'>
@@ -56,8 +56,8 @@ const PaginaPrincipal = () => {
           {isEnglish ? <h6 className='skills-partH6'>Creativity</h6> : <h6 className='skills-partH6'>Creatividad</h6>}
           {isEnglish ? <h6 className='skills-partH6'>Team collaboration</h6> : <h6 className='skills-partH6'>Colaboración en equipo</h6>}
           {isEnglish ? <h6 className='skills-partH6'>Adaptability & Flexibility</h6> : <h6 className='skills-partH6'>Adaptabilidad y Flexibilidad</h6>}
-          
-          
+
+
         </div>
 
       </div>
@@ -98,13 +98,13 @@ const PaginaPrincipal = () => {
 
 
       <div id='contacto' className='last-section'>
-      <div className='textoLast'>
-      {isEnglish ? <h3 className='tilt-warpLast' >Get In Touch</h3> : <h3 className='tilt-warpLast' >Hazme saber tus necesidades</h3>}
-      {isEnglish ? <h5>Thank you for visiting my portfolio! If you have any questions or inquiries, feel free to contact me. I'll be happy to respond to your message as soon as possible. Looking forward to hearing from you soon!</h5> : <h5>¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o consulta, no dudes en contactarme. Estaré encantado de responder tu mensaje lo antes posible.</h5>}
-      </div>
-      <div className='Imagen-Perfil'>
-        <img src={imagenPerfil} alt='Imagen de perfil' />
-      </div>
+        <div className='textoLast'>
+          {isEnglish ? <h3 className='tilt-warpLast' >Get In Touch</h3> : <h3 className='tilt-warpLast' >Hazme saber tus necesidades</h3>}
+          {isEnglish ? <h5>Thank you for visiting my portfolio! If you have any questions or inquiries, feel free to contact me. I'll be happy to respond to your message as soon as possible. Looking forward to hearing from you soon!</h5> : <h5>¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o consulta, no dudes en contactarme. Estaré encantado de responder tu mensaje lo antes posible.</h5>}
+        </div>
+        <div className='Imagen-Perfil'>
+          <img src={imagenPerfil} alt='Imagen de perfil' />
+        </div>
       </div>
 
       <BotonSubir isEnglish={isEnglish} />

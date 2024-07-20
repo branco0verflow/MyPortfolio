@@ -42,13 +42,13 @@
 .paginacion{
   position: absolute;
   top: 22px;
-  width: 70%; /* Ocupa todo el ancho del contenedor padre */
+  width: 80%; /* Ocupa todo el ancho del contenedor padre */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .big-shoulders  {
@@ -245,18 +245,78 @@ h5{
   }
 
   .logoImage {
-    width: calc((100% - 20px) / 3); /* Tres imágenes por fila en dispositivos de pantalla pequeña */
+    width: 80px; /* Ajustar el tamaño de las imágenes */
   }
 
-  /* Otros estilos específicos para dispositivos de pantalla pequeña */
+  .videoContainer {
+    display: none; /* Esconder el video */
+  }
+
+  .paginacion {
+    flex-direction: column; /* Cambiar la dirección del layout a columna */
+    align-items: center; /* Centrar los elementos */
+    
+  }
+
+  .container h1 {
+    display: flex;
+    font-size: 6em; /* Ajustar el tamaño de la fuente del nombre para pantallas pequeñas */
+    margin-bottom: -5px; /* Ajustar el margen entre el nombre y el apellido */
+    justify-content: center;
+    
+  }
+
+  .container h2 {
+    display: flex;
+    font-size: 4em; /* Ajustar el tamaño de la fuente del apellido para pantallas pequeñas */
+    margin-top: -10px; /* Ajustar el margen entre el apellido y la foto */
+    justify-content: center;
+  }
+
+  .skills-part{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .logoImage{
+    width: 70px;
+  }
+
+  .logoSection{
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
 }
 
 /* Estilos para dispositivos de pantalla mediana */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos específicos para dispositivos de pantalla mediana */
+  .container h1 {
+    font-size: 6em; /* Ajustar el tamaño de la fuente del nombre para pantallas medianas */
+    margin-bottom: -40px; /* Ajustar el margen entre el nombre y el apellido */
+  }
+
+  .container h2 {
+    font-size: 4.5em; /* Ajustar el tamaño de la fuente del apellido para pantallas medianas */
+    margin-top: -12px; /* Ajustar el margen entre el apellido y la foto */
+  }
+
+  .skills-part{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Estilos para dispositivos de pantalla grande */
 @media (min-width: 1024px) {
-  /* Estilos específicos para dispositivos de pantalla grande */
+  .container h1 {
+    font-size: 10em; /* Tamaño de la fuente del nombre para pantallas grandes */
+    margin-bottom: -60px; /* Ajustar el margen entre el nombre y el apellido */
+  }
+
+  .container h2 {
+    font-size: 7em; /* Tamaño de la fuente del apellido para pantallas grandes */
+    margin-top: -15px; /* Ajustar el margen entre el apellido y la foto */
+  }
 }
+
